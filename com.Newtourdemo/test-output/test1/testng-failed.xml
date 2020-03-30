@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sequential1(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="com.newtours.test.RegisterProcess">
+        <methods>
+          <include name="register"/>
+          <include name="Setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.newtours.test.RegisterProcess -->
+    </classes>
+  </test> <!-- Sequential1(failed) -->
+</suite> <!-- Failed suite [test1] -->
